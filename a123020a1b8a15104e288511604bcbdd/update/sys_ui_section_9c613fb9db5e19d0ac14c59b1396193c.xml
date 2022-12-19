@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Fechas" section_id="9c613fb9db5e19d0ac14c59b1396193c" sys_domain="global" table="x_hocsa_epp_solicitudes_epp" version="3" view="PDF_a_Cliente">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_aprobacion_superv</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:19:29</sys_created_on>
+            <sys_id>28617fb9db5e19d0ac14c59b1396194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">9c613fb9db5e19d0ac14c59b1396193c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:19:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_recepcion_superv</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:19:29</sys_created_on>
+            <sys_id>ac617fb9db5e19d0ac14c59b1396194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">9c613fb9db5e19d0ac14c59b1396193c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:19:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:19:29</sys_created_on>
+            <sys_id>20617fb9db5e19d0ac14c59b1396194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">9c613fb9db5e19d0ac14c59b1396193c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:19:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_aprobacion_sst</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:19:29</sys_created_on>
+            <sys_id>a0617fb9db5e19d0ac14c59b1396194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fechas" display_value="Fechas" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">9c613fb9db5e19d0ac14c59b1396193c</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:19:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Fechas</caption>
+            <header>false</header>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:19:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c613fb9db5e19d0ac14c59b1396193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hocsa_epp_solicitudes_epp</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_ui_section_9c613fb9db5e19d0ac14c59b1396193c</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:19:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="PDF a Cliente" name="PDF_a_Cliente">638dd5231bdabf00a3e3a9ffbd4bcb0b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

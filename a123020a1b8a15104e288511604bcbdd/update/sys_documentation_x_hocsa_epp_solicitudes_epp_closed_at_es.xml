@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="closed_at" label="Recepción Conforme" language="es" table="x_hocsa_epp_solicitudes_epp">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <help/>
+            <hint/>
+            <label>Recepción Conforme</label>
+            <language>es</language>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <plural>Recepción Conforme</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-11-28 20:23:47</sys_created_on>
+            <sys_id>0d52cd881b2b91d04e288511604bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Recepción Conforme</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_documentation_x_hocsa_epp_solicitudes_epp_closed_at_es</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-11-28 20:23:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

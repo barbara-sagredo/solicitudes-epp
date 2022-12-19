@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-09-23 16:14:34</sys_created_on>
+        <sys_id>47509c3a1b8a99104e288511604bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_epp_aprobacion_epp.x_hocsa_epp.aprobaci_n_de_epp_user</sys_name>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_security_acl display_value="x_hocsa_epp_aprobacion_epp">c7509c3a1b8a99104e288511604bcbea</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_47509c3a1b8a99104e288511604bcbee</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-09-23 16:14:34</sys_updated_on>
+        <sys_user_role display_value="x_hocsa_epp.aprobaci_n_de_epp_user" name="x_hocsa_epp.aprobaci_n_de_epp_user">0b50583a1b8a99104e288511604bcbec</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

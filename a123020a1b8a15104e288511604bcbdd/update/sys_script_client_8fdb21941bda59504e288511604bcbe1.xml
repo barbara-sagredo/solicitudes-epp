@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SLX Mostrar Estados</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+ /* 1 = Creado, 2 = Enviada a Aprobación, 5 = Aprobada Total por Supervisor, 6 = Aprobada Parcial por Supervisor,
+  9 = Rechazada por Supervisor, 10 = Aprobada Total por SST, 11= Aprobada Parcial por SST , 12= Rechazada por SST, 13=EPP en transito , 4=No entregado , 15=EPP entregado, 16=Recepción pendiente, 3=Recibido conforme, 7= Cancelada
+
+*/
+	var state = g_form.getValue('state');
+	
+	if(state==1){ g_form.removeOption('state', '3');}
+	if(state==1){ g_form.removeOption('state', '5');}
+	if(state==1){ g_form.removeOption('state', '6');}
+	if(state==1){ g_form.removeOption('state', '9');}
+	if(state==1){ g_form.removeOption('state', '10');}
+	if(state==1){ g_form.removeOption('state', '11');}
+	if(state==1){ g_form.removeOption('state', '12');}
+	if(state==1){ g_form.removeOption('state', '13');}
+	if(state==1){ g_form.removeOption('state', '4');}
+	if(state==1){ g_form.removeOption('state', '15');}
+	if(state==1){ g_form.removeOption('state', '16');}
+	
+	if(state==2){ g_form.removeOption('state', '1');}
+	if(state==2){ g_form.removeOption('state', '3');}
+	if(state==2){ g_form.removeOption('state', '5');}
+	if(state==2){ g_form.removeOption('state', '6');}
+	if(state==2){ g_form.removeOption('state', '9');}
+	if(state==2){ g_form.removeOption('state', '10');}
+	if(state==2){ g_form.removeOption('state', '11');}
+	if(state==2){ g_form.removeOption('state', '12');}
+	if(state==2){ g_form.removeOption('state', '13');}
+	if(state==2){ g_form.removeOption('state', '4');}
+	if(state==2){ g_form.removeOption('state', '15');}
+	if(state==2){ g_form.removeOption('state', '16');}
+	
+	
+	if(state==13){ g_form.removeOption('state', '1');}
+	if(state==13){ g_form.removeOption('state', '2');}
+	if(state==13){ g_form.removeOption('state', '3');}
+	if(state==13){ g_form.removeOption('state', '5');}
+	if(state==13){ g_form.removeOption('state', '6');}
+	if(state==13){ g_form.removeOption('state', '9');}
+	if(state==13){ g_form.removeOption('state', '10');}
+	if(state==13){ g_form.removeOption('state', '11');}
+	if(state==13){ g_form.removeOption('state', '12');}
+	if(state==13){ g_form.removeOption('state', '16');}
+	
+	
+	
+	if(state==15){ g_form.removeOption('state', '1');}
+	if(state==15){ g_form.removeOption('state', '2');}
+	if(state==15){ g_form.removeOption('state', '3');}
+	if(state==15){ g_form.removeOption('state', '5');}
+	if(state==15){ g_form.removeOption('state', '6');}
+	if(state==15){ g_form.removeOption('state', '9');}
+	if(state==15){ g_form.removeOption('state', '10');}
+	if(state==15){ g_form.removeOption('state', '11');}
+	if(state==15){ g_form.removeOption('state', '12');}
+	if(state==15){ g_form.removeOption('state', '13');}
+	if(state==15){ g_form.removeOption('state', '4');}
+	if(state==15){ g_form.removeOption('state', '7');}
+	
+	var isAdmin = g_user.hasRoleFromList ("x_hocsa_epp.aprobador_sst, slx.itil_admin, itil_admin, admin");
+	var isActive = g_form.getValue("active");
+
+	if (isActive && !isAdmin)
+		{
+			
+	if(state==15){ g_form.removeOption('state', '16');}
+		}
+	
+	
+	
+	if(state==16){ g_form.removeOption('state', '1');}
+	if(state==16){ g_form.removeOption('state', '2');}
+	if(state==16){ g_form.removeOption('state', '3');}
+	if(state==16){ g_form.removeOption('state', '5');}
+	if(state==16){ g_form.removeOption('state', '6');}
+	if(state==16){ g_form.removeOption('state', '9');}
+	if(state==16){ g_form.removeOption('state', '10');}
+	if(state==16){ g_form.removeOption('state', '11');}
+	if(state==16){ g_form.removeOption('state', '12');}
+	if(state==16){ g_form.removeOption('state', '13');}
+	if(state==16){ g_form.removeOption('state', '7');}
+	if(state==16){ g_form.removeOption('state', '4');}
+	//if(state==16){ g_form.removeOption('state', '15');}
+	
+	if(state==3){ g_form.removeOption('state', '1');}
+	if(state==3){ g_form.removeOption('state', '2');}
+	if(state==3){ g_form.removeOption('state', '5');}
+	if(state==3){ g_form.removeOption('state', '6');}
+	if(state==3){ g_form.removeOption('state', '9');}
+	if(state==3){ g_form.removeOption('state', '10');}
+	if(state==3){ g_form.removeOption('state', '11');}
+	if(state==3){ g_form.removeOption('state', '12');}
+	if(state==3){ g_form.removeOption('state', '13');}
+	if(state==3){ g_form.removeOption('state', '4');}
+	if(state==3){ g_form.removeOption('state', '15');}
+	if(state==3){ g_form.removeOption('state', '16');}
+	if(state==3){ g_form.removeOption('state', '7');}
+	
+// 	var isAdmin = g_user.hasRoleFromList ("slx.itil_superv, slx.itil_admin, itil_admin, admin");
+// 	var isActive = g_form.getValue("active");
+
+// 	if (isActive && !isAdmin)
+// 		{
+			
+// 	if(state==13){ g_form.removeOption('state', '7');}
+// 	if(state==4){ g_form.removeOption('state', '7');}
+// 	if(state==15){ g_form.removeOption('state', '7');}
+// 	if(state==16){ g_form.removeOption('state', '7');}
+// 		}
+	
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-09-28 14:57:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8fdb21941bda59504e288511604bcbe1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>SLX Mostrar Estados</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_script_client_8fdb21941bda59504e288511604bcbe1</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-12-13 12:30:46</sys_updated_on>
+        <table>x_hocsa_epp_solicitudes_epp</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

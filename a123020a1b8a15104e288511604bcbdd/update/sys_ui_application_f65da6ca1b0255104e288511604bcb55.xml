@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Inventario EPP</name>
+        <order/>
+        <roles>x_hocsa_epp.inventario_epp_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-09-21 19:45:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f65da6ca1b0255104e288511604bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inventario EPP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_ui_application_f65da6ca1b0255104e288511604bcb55</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-09-21 19:45:03</sys_updated_on>
+    </sys_ui_application>
+</record_update>

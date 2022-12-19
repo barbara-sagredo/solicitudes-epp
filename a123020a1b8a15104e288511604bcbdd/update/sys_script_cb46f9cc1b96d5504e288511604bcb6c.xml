@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sysapproval_approver</collection>
+        <condition/>
+        <description>Se comprueba si la aprobación se fue parcial</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="sysapproval_approver">stateCHANGESTOapproved^EQ<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="approved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Comprobar aprobacion parcial</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var cont = 0;
+	//Se obtiene la cantidad de epp rechazados
+    var gr = new GlideRecord("x_hocsa_epp_aprobacion_epp");
+    gr.addQuery("u_slx_solicitud_epp", current.document_id);
+    gr.addQuery("u_slx_estatus_solicitud", 'rechazado');
+    gr.query();
+    var q = gr.getRowCount();
+	//Se obtiene la cantidad de todos los epp solicitados
+    var gr1 = new GlideRecord("x_hocsa_epp_aprobacion_epp");
+    gr1.addQuery("u_slx_solicitud_epp", current.document_id);
+    gr1.query();
+    var q1 = gr1.getRowCount();
+	//Se hace un GlideRecord a la solicitud
+    var epp = new GlideRecord('x_hocsa_epp_solicitudes_epp');
+    epp.addQuery('sys_id', current.document_id);
+    epp.query();
+
+
+    if (epp.next()) {
+        if (q != q1) {
+            if (q > 0) {
+				//En caso que la cantidad de epp rechazado sea mayor a 0 es parcial
+                epp.u_slx_tipo_aprobacion = 'parcial';
+            } else {
+                epp.u_slx_tipo_aprobacion = 'total'; //En caso contrario es total
+            }
+            epp.update();
+
+        } else {
+			//En caso de que se hayan rechazados los EPP pero la aprobación se aprueba
+            gs.addErrorMessage('No puede aprobar si todos los EPP estan rechazados.');
+            current.state = 'requested';
+
+        }
+
+		//Se actualiza el estatus del epp a aprobado
+        var eppPendiente = new GlideRecord("x_hocsa_epp_aprobacion_epp");
+        eppPendiente.addQuery("u_slx_solicitud_epp", current.document_id);
+        eppPendiente.addQuery("u_slx_estatus_solicitud", 'pendiente');
+        eppPendiente.query();
+        while (eppPendiente.next()) {
+            eppPendiente.u_slx_estatus_solicitud = 'aprobado';
+			eppPendiente.update();
+        }
+    }
+
+
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-09-27 21:00:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb46f9cc1b96d5504e288511604bcb6c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>SLX Comprobar aprobacion parcial</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_script_cb46f9cc1b96d5504e288511604bcb6c</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-12-16 13:07:03</sys_updated_on>
+        <template/>
+        <u_slx_valida_adjunto>false</u_slx_valida_adjunto>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb46f9cc1b96d5504e288511604bcb6c"/>
+</record_update>

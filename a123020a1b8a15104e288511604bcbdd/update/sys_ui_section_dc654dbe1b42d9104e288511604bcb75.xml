@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="dc654dbe1b42d9104e288511604bcb75" sys_domain="global" table="x_hocsa_epp_inventario_epp" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>4e4906eadbd6ddd0ac14c59b13961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>c24906eadbd6ddd0ac14c59b13961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>464906eadbd6ddd0ac14c59b13961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>c64906eadbd6ddd0ac14c59b13961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>4a4906eadbd6ddd0ac14c59b13961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_estado</element>
+            <position>5</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>824906eadbd6ddd0ac14c59b13961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_expiracion</element>
+            <position>6</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>064906eadbd6ddd0ac14c59b13961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_tipo_epp</element>
+            <position>7</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>864906eadbd6ddd0ac14c59b13961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_stock_minimo</element>
+            <position>8</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>0a4906eadbd6ddd0ac14c59b13961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_cantidad</element>
+            <position>9</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>8a4906eadbd6ddd0ac14c59b13961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_orden_compra</element>
+            <position>10</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>0e4906eadbd6ddd0ac14c59b13961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_ubicacion</element>
+            <position>11</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>8e4906eadbd6ddd0ac14c59b13961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>024906eadbd6ddd0ac14c59b13961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_fecha_certificacion</element>
+            <position>13</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>824906eadbd6ddd0ac14c59b13961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_marca</element>
+            <position>14</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>064906eadbd6ddd0ac14c59b13961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_modelo</element>
+            <position>15</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>864906eadbd6ddd0ac14c59b13961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_talla</element>
+            <position>16</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>0a4906eadbd6ddd0ac14c59b13961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_tipo_proteccion</element>
+            <position>17</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>8a4906eadbd6ddd0ac14c59b13961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_color</element>
+            <position>18</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>0e4906eadbd6ddd0ac14c59b13961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>8e4906eadbd6ddd0ac14c59b13961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>20</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>024906eadbd6ddd0ac14c59b13961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_moneda</element>
+            <position>21</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>824906eadbd6ddd0ac14c59b13961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_valor_usd</element>
+            <position>22</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>064906eadbd6ddd0ac14c59b13961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_valor_uf</element>
+            <position>23</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>864906eadbd6ddd0ac14c59b13961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_total</element>
+            <position>24</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>0a4906eadbd6ddd0ac14c59b13961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>25</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>8a4906eadbd6ddd0ac14c59b13961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_valor</element>
+            <position>26</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>0e4906eadbd6ddd0ac14c59b13961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_valor_clp</element>
+            <position>27</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:40:06</sys_created_on>
+            <sys_id>8e4906eadbd6ddd0ac14c59b13961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:40:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_slx_talla_numerica</element>
+            <position>28</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:02</sys_created_on>
+            <sys_id>cdbc8e22db1addd0ac14c59b13961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hocsa_epp_inventario_epp" sys_domain="global" view="Default view">dc654dbe1b42d9104e288511604bcb75</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:55:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:06:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc654dbe1b42d9104e288511604bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hocsa_epp_inventario_epp</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_ui_section_dc654dbe1b42d9104e288511604bcb75</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-23 20:06:13</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

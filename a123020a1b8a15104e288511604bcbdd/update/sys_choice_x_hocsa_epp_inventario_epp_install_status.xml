@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="install_status" table="x_hocsa_epp_inventario_epp" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:28:24</sys_created_on>
+            <sys_id>dd7a89fe1b82d9104e288511604bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>install_status</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_epp_inventario_epp_install_status</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-23 20:28:24</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

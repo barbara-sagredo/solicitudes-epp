@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_estado" table="x_hocsa_epp_inventario_epp" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_estado</element>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-26 16:06:02</sys_created_on>
+            <sys_id>a32bab6bdbce5190ac14c59b139619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_estado</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_epp_inventario_epp_u_slx_estado</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:06:02</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Activo</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-26 16:06:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>022ba323db029190ac14c59b139619af</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:06:06</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_estado</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>De Baja</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-26 16:06:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef2ba7a3dbce5190ac14c59b1396193c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:06:13</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

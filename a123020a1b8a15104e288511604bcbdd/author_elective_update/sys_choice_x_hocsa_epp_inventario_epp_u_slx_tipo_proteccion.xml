@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_tipo_proteccion" table="x_hocsa_epp_inventario_epp" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_tipo_proteccion</element>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:20:42</sys_created_on>
+            <sys_id>e4b849ba1b82d9104e288511604bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_tipo_proteccion</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_epp_inventario_epp_u_slx_tipo_proteccion</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-23 20:20:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protección Auditiva</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:20:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77880d3a1b82d9104e288511604bcb86</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:18:11</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ropa de Protección</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:24:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cb845761b82d9104e288511604bcb64</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:18:11</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protección Respiratoria</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:24:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5889457e1b82d9104e288511604bcb9d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:18:11</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protección Pies</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:25:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3099c9f61b82d9104e288511604bcb63</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:18:11</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protección Visual</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:25:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27c985be1b82d9104e288511604bcbaf</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:18:11</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protección para manos</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:25:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ed94dfa1b82d9104e288511604bcb55</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:18:11</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protección cabeza</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:26:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1e90d3a1b82d9104e288511604bcb88</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:18:11</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>COVID</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:26:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6f9c5be1b82d9104e288511604bcb5a</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:18:11</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protección Mina Subterránea</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c20a85be1b82d9104e288511604bcbb0</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>giselle.schifferli</sys_updated_by>
+            <sys_updated_on>2022-11-25 14:40:05</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_tipo_proteccion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Otros</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-23 20:26:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d1a4dfa1b82d9104e288511604bcb56</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-26 16:18:10</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

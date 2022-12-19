@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_epp_aprobacion_epp</collection>
+        <condition/>
+        <description>En caso de que cambie la cantidad se actualiza del inventario</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_epp_aprobacion_epp">u_slx_cantidadVALCHANGES^EQ<item endquery="false" field="u_slx_cantidad" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Cambia Cantidad EPP</name>
+        <order>110</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	//En caso de que no se haya cambiado el epp
+	if(!current.u_slx_epp.changes()){
+	var suma=0;
+	var eppAnterior = previous.u_slx_epp;
+    var eppNuevo = current.u_slx_epp;
+	
+	//GlideREcord al inventario
+    var gr = new GlideRecord('x_hocsa_epp_inventario_epp');
+    gr.addQuery("sys_id", eppAnterior);
+    gr.query();
+    if (gr.next()) {
+		//Se le suma al inventario la anterior cantidad
+		suma=gr.u_slx_cantidad += previous.u_slx_cantidad;
+		//Se actualiza la cantidad del inventario con lo nuevo solicitado
+        gr.u_slx_cantidad = suma-current.u_slx_cantidad;
+        gr.update();
+   
+	}
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-11-17 20:39:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca6b98ac1b979d104e288511604bcbbc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SLX Cambia Cantidad EPP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_script_ca6b98ac1b979d104e288511604bcbbc</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-12-16 12:44:35</sys_updated_on>
+        <template/>
+        <u_slx_valida_adjunto>false</u_slx_valida_adjunto>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca6b98ac1b979d104e288511604bcbbc"/>
+</record_update>

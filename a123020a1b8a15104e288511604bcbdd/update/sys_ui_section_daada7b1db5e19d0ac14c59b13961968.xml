@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Información Adicional" section_id="daada7b1db5e19d0ac14c59b13961968" sys_domain="global" table="x_hocsa_epp_solicitudes_epp" version="3" view="PDF_a_Cliente">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:03:14</sys_created_on>
+            <sys_id>eeada7b1db5e19d0ac14c59b139619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Información Adicional" display_value="Información Adicional" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">daada7b1db5e19d0ac14c59b13961968</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:03:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:03:14</sys_created_on>
+            <sys_id>62ada7b1db5e19d0ac14c59b139619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Información Adicional" display_value="Información Adicional" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">daada7b1db5e19d0ac14c59b13961968</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:03:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>2</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:03:14</sys_created_on>
+            <sys_id>e2ada7b1db5e19d0ac14c59b139619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Información Adicional" display_value="Información Adicional" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">daada7b1db5e19d0ac14c59b13961968</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:03:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:03:14</sys_created_on>
+            <sys_id>66ada7b1db5e19d0ac14c59b139619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Información Adicional" display_value="Información Adicional" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">daada7b1db5e19d0ac14c59b13961968</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:03:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>4</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:03:14</sys_created_on>
+            <sys_id>e6ada7b1db5e19d0ac14c59b139619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Información Adicional" display_value="Información Adicional" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">daada7b1db5e19d0ac14c59b13961968</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:03:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_by</element>
+            <position>5</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:03:14</sys_created_on>
+            <sys_id>6aada7b1db5e19d0ac14c59b139619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Información Adicional" display_value="Información Adicional" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="638dd5231bdabf00a3e3a9ffbd4bcb0b">daada7b1db5e19d0ac14c59b13961968</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:03:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Información Adicional</caption>
+            <header>false</header>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-03 16:03:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>daada7b1db5e19d0ac14c59b13961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hocsa_epp_solicitudes_epp</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_ui_section_daada7b1db5e19d0ac14c59b13961968</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:03:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="PDF a Cliente" name="PDF_a_Cliente">638dd5231bdabf00a3e3a9ffbd4bcb0b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

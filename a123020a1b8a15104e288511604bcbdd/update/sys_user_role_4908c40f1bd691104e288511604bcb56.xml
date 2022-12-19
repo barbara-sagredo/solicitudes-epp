@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_hocsa_epp.gestor.inventario</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>gestor.inventario</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-10-06 20:32:32</sys_created_on>
+        <sys_id>4908c40f1bd691104e288511604bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hocsa_epp.gestor.inventario</sys_name>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_user_role_4908c40f1bd691104e288511604bcb56</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:32:32</sys_updated_on>
+    </sys_user_role>
+</record_update>

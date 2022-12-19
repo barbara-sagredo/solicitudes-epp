@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="EPP Solicitados" max_length="40" name="x_hocsa_epp_aprobacion_epp" sizeclass="160" type="collection">
+        <element label="Cantidad" max_length="40" name="u_slx_cantidad" type="integer"/>
+        <element label="EPP" mandatory="true" max_length="32" name="u_slx_epp" reference="x_hocsa_epp_inventario_epp" reference_qual="javascript:&quot;u_slx_tipo_proteccion=&quot;+current.u_slx_tipo_proteccion" type="reference" use_reference_qualifier="advanced"/>
+        <element choice="1" default="1" label="Estado EPP" max_length="40" name="u_slx_estado_epp" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Disponible" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Reserva Temporal" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="Reserva Indefinida" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="En Tránsito" sequence="40" value="4"/>
+                <element inactive_on_update="false" label="Entregado" sequence="50" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="pendiente" label="Estatus de solicitud" max_length="40" name="u_slx_estatus_solicitud" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pendiente" sequence="5" value="pendiente"/>
+                <element inactive_on_update="false" label="Aprobado" sequence="10" value="aprobado"/>
+                <element inactive_on_update="false" label="Rechazado" sequence="15" value="rechazado"/>
+            </choice>
+        </element>
+        <element label="Rechazado" max_length="40" name="u_slx_rechazado" type="boolean"/>
+        <element label="Solicitud EPP" max_length="32" name="u_slx_solicitud_epp" read_only="true" reference="x_hocsa_epp_solicitudes_epp" type="reference"/>
+        <element label="Solo lectura" max_length="40" name="u_slx_solo_lectura" read_only="true" type="boolean"/>
+        <element choice="1" choice_field="u_slx_tipo_proteccion" choice_table="x_hocsa_epp_inventario_epp" label="Tipo de Protección" max_length="40" name="u_slx_tipo_proteccion" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="u_slx_solicitud_epp"/>
+        </index>
+        <index name="index2">
+            <element name="u_slx_epp"/>
+        </index>
+    </element>
+</database>

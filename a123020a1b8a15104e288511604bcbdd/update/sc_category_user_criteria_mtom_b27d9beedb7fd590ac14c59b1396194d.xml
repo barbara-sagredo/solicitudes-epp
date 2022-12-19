@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category_user_criteria_mtom">
+    <sc_category_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_category display_value="Elementos de Protección Personal - EPP">9b34322c1b1e1d504e288511604bcb41</sc_category>
+        <sys_class_name>sc_category_user_criteria_mtom</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-12-19 12:22:10</sys_created_on>
+        <sys_id>b27d9beedb7fd590ac14c59b1396194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Elementos de Protección Personal - EPP.admin</sys_name>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sc_category_user_criteria_mtom_b27d9beedb7fd590ac14c59b1396194d</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-12-19 12:22:10</sys_updated_on>
+        <user_criteria display_value="admin">cf5dd722dbbfd590ac14c59b13961946</user_criteria>
+    </sc_category_user_criteria_mtom>
+</record_update>

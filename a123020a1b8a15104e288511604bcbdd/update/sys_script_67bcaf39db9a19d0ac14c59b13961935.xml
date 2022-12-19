@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_epp_solicitudes_epp</collection>
+        <condition/>
+        <description>Genera un adjunto a la solicitud de  EPP con la vista PDF de cliente</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_epp_solicitudes_epp">state=3^EQ<item display_value="Recibido conforme" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX Adjunta vista PDF a Solicitud EPP</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var sysparm_table = current.getTableName();
+	var sysparm_sys_id = current.sys_id;
+	var request = new sn_ws.RESTMessageV2('SLX_Attach_VistaPDF', 'POST_URL');
+	gs.info('*******REQUEST  '+request);
+	var path = "https://" + gs.getProperty("instance_name") + ".service-now.com/";
+	var sysparam_view = "PDF_a_Cliente"; // vista pdf a cliente
+	var url = path + sysparm_table + '.do?PDF&sys_id=' + sysparm_sys_id + '&sysparm_collection_relationship=false&sysparm_collection=false&sysparm_view='+sysparam_view+'&related_list_filter=&sysparm_domain=';
+	
+	request.setEndpoint(url);
+	request.saveResponseBodyAsAttachment(sysparm_table,sysparm_sys_id,current.number+'.pdf');
+	var response = request.execute();
+	if(response.getStatusCode() == '200'){
+		/*var userList = [];*/
+		/*
+		var grp3 = new GlideRecord('core_company');
+		grp3.addQuery('sys_id', current.u_slx_vendor);
+		grp3.query();
+		if(grp3.next()){
+			userList.push('"'+grp3.u_slx_correo +'"');
+			gs.log('grp3.u_slx_correo');
+		}*/
+	}else{
+		gs.log("ERROR DE CONEXION CON EL SERVICIO POST_URL REST - SLX_Attach_VistaPDF.");
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-10-03 16:05:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67bcaf39db9a19d0ac14c59b13961935</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SLX Adjunta vista PDF a Solicitud EPP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_script_67bcaf39db9a19d0ac14c59b13961935</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-11-11 17:44:27</sys_updated_on>
+        <template/>
+        <u_slx_valida_adjunto>false</u_slx_valida_adjunto>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=67bcaf39db9a19d0ac14c59b13961935"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>67bcaf39db9a19d0ac14c59b13961935</documentkey>
+        <fieldname>message</fieldname>
+        <language>es</language>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-11-11 17:41:34</sys_created_on>
+        <sys_id>172a34e61bc7d5904e288511604bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-11-11 17:41:34</sys_updated_on>
+        <tablename>sys_script</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

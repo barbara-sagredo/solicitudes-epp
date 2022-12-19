@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_estatus_solicitud" label="Estatus de solicitud" language="en" table="x_hocsa_epp_aprobacion_epp">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_estatus_solicitud</element>
+            <help/>
+            <hint/>
+            <label>Estatus de solicitud</label>
+            <language>en</language>
+            <name>x_hocsa_epp_aprobacion_epp</name>
+            <plural>Estatus de solicituds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-11-15 20:26:13</sys_created_on>
+            <sys_id>82368aff1b8fd5104e288511604bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Estatus de solicitud</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_documentation_x_hocsa_epp_aprobacion_epp_u_slx_estatus_solicitud_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-11-15 20:26:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

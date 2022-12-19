@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_causa" table="x_hocsa_epp_solicitudes_epp" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_causa</element>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-12-07 14:31:12</sys_created_on>
+            <sys_id>88f70276db675554ac14c59b139619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_causa</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_epp_solicitudes_epp_u_slx_causa</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-12-07 14:31:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_causa</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cambio por talla</label>
+            <language>en</language>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-12-07 14:31:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44f70276db675554ac14c59b139619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-12-07 14:31:12</sys_updated_on>
+            <value>talla</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_causa</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cambio por defecto</label>
+            <language>en</language>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-12-07 14:31:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04f70276db675554ac14c59b139619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-12-07 14:31:12</sys_updated_on>
+            <value>defecto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_causa</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Otro</label>
+            <language>en</language>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-12-07 14:31:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00f70276db675554ac14c59b139619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-12-07 14:31:12</sys_updated_on>
+            <value>otro</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

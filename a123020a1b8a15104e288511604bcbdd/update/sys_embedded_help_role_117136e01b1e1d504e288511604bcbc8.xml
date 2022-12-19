@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_hocsa_epp.gestor_epp" name="x_hocsa_epp.gestor_epp">516136241b1e1d504e288511604bcb37</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-09-29 14:27:47</sys_created_on>
+        <sys_id>117136e01b1e1d504e288511604bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>516136241b1e1d504e288511604bcb37</sys_name>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_embedded_help_role_117136e01b1e1d504e288511604bcbc8</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-09-29 14:27:47</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hocsa_epp_aprobacion_epp</collection>
+        <condition/>
+        <description>En caso de rechazo de un epp individual se devuelve lo solicitado al inventario</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hocsa_epp_aprobacion_epp">u_slx_estatus_solicitudCHANGESTOrechazado^u_slx_estado_epp=2^ORu_slx_estado_epp=3^EQ<item display_value="Rechazado" endquery="false" field="u_slx_estatus_solicitud" goto="false" newquery="false" operator="CHANGESTO" or="false" value="rechazado"/>
+            <item display_value="Reserva Temporal" endquery="false" field="u_slx_estado_epp" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item display_value="Reserva Indefinida" endquery="false" field="u_slx_estado_epp" goto="false" newquery="false" operator="=" or="true" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>SLX EPP Rechazado</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	
+	current.u_slx_solo_lectura=true; //Se deja solo lectura
+	current.u_slx_estado_epp='1'; //Se deja disponible
+
+	//GlideRecord al inventario
+    var gr = new GlideRecord("x_hocsa_epp_inventario_epp");
+    gr.addQuery("sys_id", current.u_slx_epp);
+    gr.query();
+    if (gr.next()) {
+		gr.u_slx_cantidad+=current.u_slx_cantidad; //Se suma al inventario la cantidad solicitada
+		gr.update();
+
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-09-28 16:13:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>392f71d41b9e59504e288511604bcbca</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SLX EPP Rechazado</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_script_392f71d41b9e59504e288511604bcbca</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-12-16 13:15:09</sys_updated_on>
+        <template/>
+        <u_slx_valida_adjunto>false</u_slx_valida_adjunto>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=392f71d41b9e59504e288511604bcbca"/>
+</record_update>

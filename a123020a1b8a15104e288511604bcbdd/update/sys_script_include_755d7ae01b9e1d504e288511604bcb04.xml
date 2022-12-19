@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hocsa_epp.slx_asesores_ssa</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>slx_asesores_ssa</name>
+        <script><![CDATA[var slx_asesores_ssa = Class.create();
+slx_asesores_ssa.prototype = {
+    initialize: function() {},
+
+    asesores: function() {
+        var id = "";
+        var gr = new GlideRecord("sys_user_grmember");
+        gr.addQuery("group", gs.getProperty('x_hocsa_epp.slx.grupo.asesores.ssa'));
+        gr.query();
+        while (gr.next()) {
+
+            if (id.length > 0) {
+                id += ',' + gr.user.sys_id.toString();
+            } else {
+                id = gr.user.sys_id.toString() + '';
+            }
+
+        }
+
+        return 'sys_idIN' + id;
+
+
+
+    },
+	
+	supervisores: function() {
+        var id = "";
+        var gr = new GlideRecord("sys_user_grmember");
+        gr.addQuery("group", gs.getProperty('x_hocsa_epp.slx.grupo.supervisores.epp'));
+        gr.query();
+        while (gr.next()) {
+
+            if (id.length > 0) {
+                id += ',' + gr.user.sys_id.toString();
+            } else {
+                id = gr.user.sys_id.toString() + '';
+            }
+
+        }
+
+        return 'sys_idIN' + id;
+
+
+
+    },
+
+    type: 'slx_asesores_ssa'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-09-29 15:27:04</sys_created_on>
+        <sys_id>755d7ae01b9e1d504e288511604bcb04</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>slx_asesores_ssa</sys_name>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_script_include_755d7ae01b9e1d504e288511604bcb04</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-11-08 15:15:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

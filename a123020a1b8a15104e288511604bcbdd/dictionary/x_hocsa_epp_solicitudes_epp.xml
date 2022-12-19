@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Solicitudes de EPP" max_length="40" name="x_hocsa_epp_solicitudes_epp" sizeclass="101" type="collection">
+        <element label="Aprobador SST" max_length="32" name="u_slx_asesor_ssa" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Causa" max_length="40" name="u_slx_causa" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Cambio por talla" sequence="0" value="talla"/>
+                <element inactive_on_update="false" label="Cambio por defecto" sequence="1" value="defecto"/>
+                <element inactive_on_update="false" label="Otro" sequence="2" value="otro"/>
+            </choice>
+        </element>
+        <element choice="1" label="Causa Reemplazo" max_length="40" name="u_slx_causa_reemplazo" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Perdida" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Desgaste" sequence="15" value="2"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="División" max_length="32" name="u_slx_division" reference="core_company" reference_qual="customer=true^EQ" reference_qual_condition="customer=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha de aprobación Aprobador SST" max_length="40" name="u_slx_fecha_aprobacion_sst" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha de aprobación Supervisor" max_length="40" name="u_slx_fecha_aprobacion_superv" read_only="true" type="glide_date"/>
+        <element label="Nombre de Solicitante" max_length="32" name="u_slx_nombre_solicitante" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Solo lectura" max_length="40" name="u_slx_solo_lectura" read_only="true" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Supervisor" max_length="32" name="u_slx_supervisor" read_only="true" reference="sys_user" type="reference"/>
+        <element choice="1" label="Tipo de Aprobación" max_length="40" name="u_slx_tipo_aprobacion" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Total" sequence="10" value="total"/>
+                <element inactive_on_update="false" label="Parcial" sequence="20" value="parcial"/>
+            </choice>
+        </element>
+        <element choice="1" label="Tipo de Entrega" mandatory="true" max_length="40" name="u_slx_tipo_entrega" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Oficina" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Sitio Cliente" sequence="15" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Tipo de Solicitud" max_length="40" name="u_slx_tipo_solicitud" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Entrega Inicial" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Reemplazo" sequence="15" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>

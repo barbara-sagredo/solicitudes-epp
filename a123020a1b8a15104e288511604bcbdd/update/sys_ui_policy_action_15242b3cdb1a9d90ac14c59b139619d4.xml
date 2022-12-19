@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>u_slx_valor_uf</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-09-30 12:48:06</sys_created_on>
+        <sys_id>15242b3cdb1a9d90ac14c59b139619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_slx_valor_uf</sys_name>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_15242b3cdb1a9d90ac14c59b139619d4</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-09-30 12:48:06</sys_updated_on>
+        <table>x_hocsa_epp_inventario_epp</table>
+        <ui_policy display_value="SLX Mostrar Valor UF">93b2e73cdbd69d90ac14c59b139619b9</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

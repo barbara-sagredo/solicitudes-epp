@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notas" section_id="2218ba461b8255104e288511604bcb46" sys_domain="global" table="x_hocsa_epp_solicitudes_epp" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>0</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-12-07 13:37:17</sys_created_on>
+            <sys_id>829b31f2dbe35554ac14c59b139619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notas" display_value="Notas" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="Default view">2218ba461b8255104e288511604bcb46</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-12-07 13:37:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>1</position>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-12-07 13:37:17</sys_created_on>
+            <sys_id>0a9b31f2dbe35554ac14c59b139619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notas" display_value="Notas" name="x_hocsa_epp_solicitudes_epp" sys_domain="global" view="Default view">2218ba461b8255104e288511604bcb46</sys_ui_section>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-12-07 13:37:17</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notas</caption>
+            <header>false</header>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-21 20:32:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2218ba461b8255104e288511604bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hocsa_epp_solicitudes_epp</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_ui_section_2218ba461b8255104e288511604bcb46</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-21 20:32:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

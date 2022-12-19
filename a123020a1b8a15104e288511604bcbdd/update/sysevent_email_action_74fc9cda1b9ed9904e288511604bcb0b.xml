@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sysapproval_approver</collection>
+        <condition table="sysapproval_approver">sysapproval.sys_class_name=x_hocsa_epp_solicitudes_epp^EQ<item display_value="x_hocsa_epp_solicitudes_epp" endquery="false" field="sysapproval.sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_hocsa_epp_solicitudes_epp"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Estimado/a ${approver}:</p>
+<p>La solicitud de EPP n&uacute;mero:${sysapproval} ha sido enviada por ${sysapproval.u_slx_nombre_solicitante} para su aprobaci&oacute;n.</p>
+<p>Tipo de Solicitud: ${sysapproval.u_slx_tipo_solicitud}</p>
+<p>Supervisor: ${sysapproval.u_slx_supervisor}</p>
+<p>Aprobador SST: ${sysapproval.u_slx_asesor_ssa}</p>
+<p><br /><br /><span style="font-family: Arial, sans-serif; color: #222222;"><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">${mail_script:SLX_llevame_a_aprobacion}&nbsp;</span></span></p>
+<p><span style="background-color: #ffffff;">Atte.</span></p>
+<p><span style="background-color: #ffffff;">Gesti&oacute;n SST</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SLX  solicitud enviada</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Solicitud EPP enviada para aprobación</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>slx.gm</sys_created_by>
+        <sys_created_on>2022-10-04 15:30:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>74fc9cda1b9ed9904e288511604bcb0b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>SLX  solicitud enviada</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sysevent_email_action_74fc9cda1b9ed9904e288511604bcb0b</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-12-06 14:48:33</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

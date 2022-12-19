@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_slx_causa" label="Causa" language="en" table="x_hocsa_epp_solicitudes_epp">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_slx_causa</element>
+            <help/>
+            <hint/>
+            <label>Causa</label>
+            <language>en</language>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <plural>Causas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-12-07 14:31:12</sys_created_on>
+            <sys_id>08f70276db675554ac14c59b1396197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Causa</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_documentation_x_hocsa_epp_solicitudes_epp_u_slx_causa_en</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-12-07 14:31:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

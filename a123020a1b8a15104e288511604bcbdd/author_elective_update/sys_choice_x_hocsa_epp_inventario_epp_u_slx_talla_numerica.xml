@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_talla_numerica" table="x_hocsa_epp_inventario_epp" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_talla_numerica</element>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:12</sys_created_on>
+            <sys_id>d3bc4e26db1addd0ac14c59b13961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_talla_numerica</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_epp_inventario_epp_u_slx_talla_numerica</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:55:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>35</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6abc8626db1addd0ac14c59b139619f7</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:21</sys_updated_on>
+            <value>35</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>36</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3bcc626db1addd0ac14c59b13961901</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:23</sys_updated_on>
+            <value>36</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>37</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8cc8e26db1addd0ac14c59b13961935</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:25</sys_updated_on>
+            <value>37</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>38</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ecc8226db1addd0ac14c59b1396194a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:27</sys_updated_on>
+            <value>38</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>39</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88dc8ee2db1addd0ac14c59b139619a0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:29</sys_updated_on>
+            <value>39</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>40</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>35</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9dc0662db1addd0ac14c59b139619c0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:31</sys_updated_on>
+            <value>40</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>41</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2dcce26db1addd0ac14c59b13961905</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:33</sys_updated_on>
+            <value>41</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>42</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>45</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:55:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4ec0222db1addd0ac14c59b13961958</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:35</sys_updated_on>
+            <value>42</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>43</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:56:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1ec8266db1addd0ac14c59b139619a8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:37</sys_updated_on>
+            <value>43</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>44</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>55</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:56:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43ecce26db1addd0ac14c59b13961907</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:39</sys_updated_on>
+            <value>44</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_talla_numerica</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>45</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-10-05 16:56:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cfcc266db1addd0ac14c59b139619ed</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-10-05 16:56:41</sys_updated_on>
+            <value>45</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

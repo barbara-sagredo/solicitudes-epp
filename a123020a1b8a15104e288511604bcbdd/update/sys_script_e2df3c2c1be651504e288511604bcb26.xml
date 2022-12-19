@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection/>
+        <condition/>
+        <description>Regla que valida si faltan 30 días para la fecha de expiración del epp</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>slx_valida_fecha_expiracion</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var gr = new GlideRecord("x_hocsa_epp_inventario_epp");
+    gr.addQuery("u_slx_estado", 1);
+    gr.query();
+    while (gr.next()) {
+		
+		var fechaExpiracion= new GlideDateTime(gr.u_slx_fecha_expiracion);
+		fechaExpiracion.addDaysLocalTime(-30); //Se restan 30 dias a la fecha de expiracion
+		
+		var fechaExp = fechaExpiracion.getDate(); // Se obtiene la porcion de fecha sin hora
+		var hoy=new GlideDate();
+		
+		
+		if(fechaExp.compareTo(hoy)==0)
+			{
+				//se ejecuta el evento que gatilla una notificacion al gestor de inventario
+				gs.eventQueue('x_hocsa_epp.fecha_expiracion',gr, gr.name);
+			}
+		
+
+    }
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-10-11 16:36:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e2df3c2c1be651504e288511604bcb26</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>slx_valida_fecha_expiracion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_script_e2df3c2c1be651504e288511604bcb26</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-10-11 19:42:40</sys_updated_on>
+        <template/>
+        <u_slx_valida_adjunto>false</u_slx_valida_adjunto>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e2df3c2c1be651504e288511604bcb26"/>
+</record_update>

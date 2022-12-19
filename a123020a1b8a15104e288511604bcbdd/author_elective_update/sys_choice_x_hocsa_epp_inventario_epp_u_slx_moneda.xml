@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_slx_moneda" table="x_hocsa_epp_inventario_epp" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_slx_moneda</element>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-30 12:45:45</sys_created_on>
+            <sys_id>2cb3af34db1a9d90ac14c59b139619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_slx_moneda</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_choice_x_hocsa_epp_inventario_epp_u_slx_moneda</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-30 12:45:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_moneda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UF</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-30 12:45:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54032fb8dbd69d90ac14c59b13961991</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-30 12:46:00</sys_updated_on>
+            <value>uf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_moneda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USD</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-30 12:45:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4b3e378db1a9d90ac14c59b139619d6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-30 12:46:04</sys_updated_on>
+            <value>usd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_slx_moneda</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CLP'</label>
+            <language>en</language>
+            <name>x_hocsa_epp_inventario_epp</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-30 12:46:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6eb3a7f8db1a9d90ac14c59b13961941</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-30 12:46:20</sys_updated_on>
+            <value>clp</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_slx_tipo_entrega</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>slx.bs</sys_created_by>
+        <sys_created_on>2022-11-16 15:54:44</sys_created_on>
+        <sys_id>d0a15a081b1b99104e288511604bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_slx_tipo_entrega</sys_name>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d0a15a081b1b99104e288511604bcbbd</sys_update_name>
+        <sys_updated_by>slx.bs</sys_updated_by>
+        <sys_updated_on>2022-11-16 15:54:51</sys_updated_on>
+        <table>x_hocsa_epp_solicitudes_epp</table>
+        <ui_policy display_value="SLX Tipo de Entrega obligatorio">6a511ec41b1b99104e288511604bcb7c</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

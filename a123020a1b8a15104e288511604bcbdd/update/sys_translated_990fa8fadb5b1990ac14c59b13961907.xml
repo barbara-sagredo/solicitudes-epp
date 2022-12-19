@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>Solicitudes EPP</label>
+        <language>es</language>
+        <name>sys_app_application</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>giselle.schifferli</sys_created_by>
+        <sys_created_on>2022-11-24 21:47:01</sys_created_on>
+        <sys_id>990fa8fadb5b1990ac14c59b13961907</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Solicitudes EPP</sys_name>
+        <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+        <sys_update_name>sys_translated_990fa8fadb5b1990ac14c59b13961907</sys_update_name>
+        <sys_updated_by>giselle.schifferli</sys_updated_by>
+        <sys_updated_on>2022-11-24 21:47:25</sys_updated_on>
+        <value>Solicitudes de EPP</value>
+    </sys_translated>
+</record_update>

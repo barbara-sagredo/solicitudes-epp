@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_hocsa_epp_solicitudes_epp" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Solicitudes de EPP - Default view" name="x_hocsa_epp_solicitudes_epp" related_list="NULL" sys_domain="global" view="Default view">54b342801b5ad5504e288511604bcb57</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_hocsa_epp_aprobacion_epp.u_slx_solicitud_epp</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-27 21:50:52</sys_created_on>
+            <sys_id>98b342801b5ad5504e288511604bcb58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-27 21:50:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Solicitudes de EPP - Default view" name="x_hocsa_epp_solicitudes_epp" related_list="NULL" sys_domain="global" view="Default view">54b342801b5ad5504e288511604bcb57</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-27 21:50:52</sys_created_on>
+            <sys_id>90b342801b5ad5504e288511604bcb59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-27 21:50:52</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Solicitudes de EPP - Default view</calculated_name>
+            <filter/>
+            <name>x_hocsa_epp_solicitudes_epp</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>slx.bs</sys_created_by>
+            <sys_created_on>2022-09-27 21:50:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54b342801b5ad5504e288511604bcb57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Solicitudes de EPP - Default view</sys_name>
+            <sys_package display_value="Solicitudes de EPP" source="x_hocsa_epp">a123020a1b8a15104e288511604bcbdd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Solicitudes de EPP">a123020a1b8a15104e288511604bcbdd</sys_scope>
+            <sys_update_name>sys_ui_related_x_hocsa_epp_solicitudes_epp_null</sys_update_name>
+            <sys_updated_by>slx.bs</sys_updated_by>
+            <sys_updated_on>2022-09-27 21:50:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
